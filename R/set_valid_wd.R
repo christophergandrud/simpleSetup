@@ -14,12 +14,12 @@
 
 set_valid_wd <- function(possible) {
     for (i in possible) {
-        if (file.exists(i)) {
+        if (dir.exists(i)) {
             setwd(i)
             message(sprintf('Working directory set to: %s', i))
             break
         }
-        if (possible[length(possible)] == i) message(
-            'No valid directory found.')
+        if (possible[length(possible)] == i)
+            message('No valid directory found.')
     }
 }

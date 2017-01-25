@@ -1,0 +1,4 @@
+# Version 0.1.1
+
+- `set_valid_wd` fails more informatively if a file rather than a directory is
+supplied. Thanks to @barryrowlingson for suggestin [1].
