@@ -37,3 +37,7 @@ set_valid_wd(possible_wd)
 
 The hitch is that users will have to install the **setupPkg**, but this is one
 quick installation, as the package has no dependencies.
+
+## Comparision to other packages
+
+Also checkout [pacman](https://cran.r-project.org/web/packages/pacman/index.html), which has many more features for dealing with packages. While they cover some of the same ground, simpleSetup is aimed at simplicity, it is a very small install and has no dependencies. 
